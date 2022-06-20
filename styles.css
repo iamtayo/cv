@@ -1,0 +1,63 @@
+.face{
+  height:200px;
+  width:200px;
+
+}
+body{
+  text-align: center;
+ margin: 0;
+ margin-bottom: 0;
+ font-family: 'Patrick Hand', cursive;
+}
+.pro{
+  text-decoration: underline;
+}
+.topc{
+  position :absolute;
+  right : 340px;
+  top : 150px;
+
+}
+.botc{
+  position :absolute;
+    top : 330px;
+    left : 350px;
+}
+.topcont{
+  background-color: #EAF6F6;
+  padding: 200px;
+  position :relative;
+  bottom: 21px;
+
+}
+.midcont{
+  background-color:#FCF8E8 ;
+  position: relative;
+  bottom: 21px;
+}
+.botcont{
+  background-color: #FCF8E8;
+  position: relative;
+  bottom: 42px;
+}
+.h1{
+  font-family: 'Pacifico', cursive;
+}
+.h2{
+  font-family: 'Kaushan Script', cursive;
+}
+p{
+  font-size: 20px ;
+}
+hr{
+  border-color: grey ;
+  border-style:  dotted none none ;
+  border-width: 5px;
+  width: 5%;
+
+}
+.table{
+  margin-left: auto;
+  margin-right: auto;
+}
+/* */
