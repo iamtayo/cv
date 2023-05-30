@@ -1,6 +1,6 @@
 .face{
-  height:200px;
-  width:200px;
+  height:12.5rem;
+  width:12.5rem;
 
 }
 body{
@@ -8,6 +8,7 @@ body{
    background-color:#FCF8E8 ;
    margin: 0;
  font-family: 'Patrick Hand', cursive;
+ width: 100%;
 }
 .pro{
   text-decoration: underline;
@@ -16,24 +17,29 @@ body{
   position :absolute;
   right : 15%;
   top : 10%;
-
+ max-width: 100%;
 }
 .botc{
   position :absolute;
     top : 50%  ;
-    left : 20%;
+    left : 10%;
+    max-width: 100%;
+}
+.mount{
+
+  max-width: 100%;
 }
 .topcont{
   background-color: #EAF6F6;
-  padding: 200px;
+  padding: 6.25rem ;
   position :relative;
-
+margin: 0 auto;
 
 }
 .midcont{
   background-color:#FCF8E8 ;
   position: relative;
-  padding: 30px 0 ;
+  padding: 1.875rem 0 ;
 
 }
 .botcont{
@@ -44,7 +50,7 @@ body{
 .h1{
   color:  #66BFBF;
   font-weight: normal;
-  font-size: 300%;
+  font-size: 3rem;
   font-family: 'Pacifico', cursive;
 }
 .h2{
@@ -53,13 +59,13 @@ body{
   font-family: 'Kaushan Script', cursive;
 }
 p{
-  font-size: 20px ;
+  font-size: 1.25rem ;
   margin: 0;
 }
 hr{
   border-color: grey ;
   border-style:  dotted none none ;
-  border-width: 5px;
+  border-width: 0.313rem;
   width: 5%;
 
 }
@@ -72,6 +78,16 @@ hr{
   color: red;
 
 }
-
+td{
+  padding: 0 1.25rem;
+}
+.icon{
+  margin: 0 0.313rem;
+}
 /* */
-
+@media (min-width : 414px) {
+.tor{
+  display: inline;
+  margin: 0 auto;
+}
+}
